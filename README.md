@@ -7,7 +7,7 @@ PDF Shuffler is a simple Python script that shuffles the pages of a PDF file and
 - Shuffle the pages of a PDF file randomly
 - Create a new PDF file with the shuffled pages
 - Easy to use and modify
-- Supports Python 2.7 and 3.x (PyPDF2) or Python 3.10 and higher (PyPDF4)
+- Supports Python 2.7 and 3.x (PyPDF2) or Python 3.10 and higher (PyPDF4) (replace in import line)
 
 ## Usage
 
@@ -21,10 +21,7 @@ The script will shuffle the pages of the input PDF file and save the shuffled pa
 ## Installation
 
 PDF Shuffler requires the PyPDF2 or PyPDF4 library to be installed. You can install the library using pip:
-
-
-## License
-
-PDF Shuffler is licensed under the MIT License. You are free to use, modify, and distribute the script for any purpose, as long as you include the original copyright and license notice in any copies or distributions.
-
-We hope that PDF Shuffler is useful for your PDF shuffling needs. If you have any questions, comments, or issues, please feel free to open an issue on this repository.
+```
+pip install pypdf2 # for Python 2.7 and 3.x
+pip install pypdf4 # for Python 3.10 and higher
+```
